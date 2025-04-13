@@ -14,10 +14,9 @@ const Blog = () => {
     console.log(blogs);
 
 
-
-
     return (
         <div>
+             <h1>Total: {blogs.length}</h1>
             
         </div>
     );

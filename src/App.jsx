@@ -7,7 +7,21 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Blog></Blog>
+     
+
+      <div className="main-container flex text-center" >
+        <div className="left-container w-[70%] border">
+         
+          <Blog></Blog>
+
+          
+          </div>
+        <div className="right-container w-[30%] border ">
+        <h1>Reading time: 0</h1>
+        <h1>Bookmarked Count: 0</h1>
+        </div>
+         
+         </div>
        
     </>
   )
