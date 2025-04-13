@@ -1,5 +1,6 @@
 // import React from 'react';
 import React, {useEffect, useState} from "react";
+import BlogOne from "../BlogOne/BlogOne";
 
 const Blog = () => {
 
@@ -16,7 +17,11 @@ const Blog = () => {
 
     return (
         <div>
-             <h1>Total: {blogs.length}</h1>
+             <h1 className="text-3xl">
+                Total: {blogs.length}</h1>
+             <div className="all-blogs">
+                {blogs.map((blog) => <BlogOne BlogOne={BlogOne}></BlogOne> )}
+                </div>   
             
         </div>
     );
