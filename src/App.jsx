@@ -1,13 +1,16 @@
 import './App.css'
-// import Navbar from './component/navbar/Navbar';
+// import Navbar from './component/Navbar'
+import Navbar from './component/Navbar'
+
 function App() {
 
   return (
     <>
-      {/* <Navbar></Navbar> */}
-       <h1>hello world </h1>
+      <Navbar></Navbar>
+       
     </>
   )
 }
+
 
 export default App
